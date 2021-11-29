@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <!-- <link rel="stylesheet" href="/styles/resets.css">
+        <link rel="stylesheet" href="/styles/base.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/form.css">
+        <link rel="stylesheet" href="/styles/footer.css"> -->
+    </head>
+
+    <body>
+
+        <header>
+            <div class="">
+                Logo
+            </div>
+            
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return MyClient.handleSubmit(event)">
+                    <div class="">
+                        <strong>Please enter the article URL</strong> 
+                    </div>
+                    <input id="myURL" type="text" name="input" value="" placeholder="URL">
+                    <input type="submit" id ="btnSubmit" name="btn" value="submit" onclick="return MyClient.handleSubmit(event)" onsubmit="return MyClient.handleSubmit(event)">
+                </form>
+            </section>
+
+            <section>
+                <strong>Article Processing Results:</strong>
+                
+                <div id="results"></div>
+                <div id="model"></div>
+                <div id="score_tag"></div>
+                <div id="agreement"></div>
+                <div id="subjectivity"></div>
+                <div id="confidence"></div>
+                <div id="irony"></div>
+                <div id="sentence_list"></div>
+                <div id = "sentimented_entity_list"></div> 
+                <div id = "sentimented_concept_list"></div>
+                    
+            </section>
+        </main>
+
+        <footer>
+            <p>This website is a sample of NLP of sentiments processing done by Rouwaida Mourad</p>
+            <div> 
+                copyright 2021, all rights reserved
+            </div>
+
+        </footer>
+
+    </body>
+</html>

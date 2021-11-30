@@ -9,16 +9,15 @@
     <body>
 
         <header>
-            <div class="">
-                Logo
+            <div class="logo">
+                <!-- <img src="../images/sent_analysis.jpg" alt="sentimental analysis"> -->
+                Sentimental NLP 
             </div>
             
-        </header>
-
         <main>
             <section>
                 <form class="" onsubmit="return MyClient.handleSubmit(event)">
-                    <div class="">
+                    <div class="labels">
                         <strong>Please enter the article URL</strong> 
                     </div>
                     <input id="myURL" type="text" name="input" value="" placeholder="URL">
@@ -27,8 +26,9 @@
             </section>
 
             <section>
+                <div class="labels">
                 <strong>Article Processing Results:</strong>
-                
+                </div>
                 <div id="results"></div>
                 <div id="model"></div>
                 <div id="score_tag"></div>
@@ -36,10 +36,7 @@
                 <div id="subjectivity"></div>
                 <div id="confidence"></div>
                 <div id="irony"></div>
-                <div id="sentence_list"></div>
-                <div id = "sentimented_entity_list"></div> 
-                <div id = "sentimented_concept_list"></div>
-                    
+                                   
             </section>
         </main>
 

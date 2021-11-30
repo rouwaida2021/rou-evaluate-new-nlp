@@ -1,4 +1,11 @@
 
+
+/**
+ * @description function used to check if the entered article url by the user is a valid url or not - to be able to send it to the meaning cloud API
+ * @param {string} inputText - the input string that is written by the user that should be checked if it's valid url or not
+ * @returns {Boolean} true or false - the returned value - true if valid url , false if wrong url
+*/
+
 function checkForRightURL(inputText) {
     console.log("Checking for right URL", inputText);
 

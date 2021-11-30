@@ -6,10 +6,7 @@ import './styles/footer.scss'
 import './styles/form.scss'
 import './styles/header.scss'
 
-// console.log(checkForRightURL);
-
-alert("I EXIST")
-console.log("CHANGE!!");
+console.log("client index.js says ... Hi!!");
 
 export {
     checkForRightURL,

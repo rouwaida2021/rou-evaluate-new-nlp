@@ -1,9 +1,12 @@
-.footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    border: 2px solid #474746;
+    border-radius: 3px;
+   
     width: 100%;
-    background-color: rgb(98, 86, 209);
-    color: white;
+    background-color: rgb(89, 75, 207);
+    color: rgb(255, 255, 255);
     text-align: center;
  }

@@ -1,5 +1,13 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 15px 20px;
+    .logo {
+        width: 60;
+        height: 20px;
+        font-weight:100;
+        background-color: darkorange;
+    }
 }
+
+

@@ -1,5 +1,5 @@
 form {
-    border: 3px solid #2c6133;
+    border: 10px solid #3f2c61;
     border-radius: 3px;
     padding: 40px;
 }
@@ -9,7 +9,8 @@ input {
     width: 100%;
     line-height: 16px;
     margin: 10px 0;
-    &.btn{
-        color: rgb(100, 119, 201);
+    &#btnSubmit{
+        color: rgb(0, 0, 0);
+        background-color: darkorange;
     }
 }

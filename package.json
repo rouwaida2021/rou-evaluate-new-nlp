@@ -14,10 +14,14 @@
   "description": "This is a NLP project using meaningCloud API",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "axios": "^0.24.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "node": "^16.13.0",
+    "node-fetch": "^3.1.0",
+    "npm": "^8.1.4",
     "webpack": "^4.35.3",
     "webpack-cli": "^4.9.1"
   },
@@ -38,6 +42,6 @@
     "style-loader": "^2.0.0",
     "supertest": "^6.1.6",
     "webpack-dev-server": "^4.5.0",
-    "workbox-webpack-plugin": "^6.4.1"
+    "workbox-webpack-plugin": "^6.4.2"
   }
 }
